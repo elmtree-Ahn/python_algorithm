@@ -1,0 +1,2 @@
+push = input()
+print(push)

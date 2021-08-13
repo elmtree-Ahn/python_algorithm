@@ -1,2 +1,2 @@
 data = int(input())
-print(data<<1)
+print(bool(data))

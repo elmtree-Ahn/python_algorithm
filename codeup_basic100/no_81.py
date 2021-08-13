@@ -1,5 +1,4 @@
-n = input()
-
-
-for i in range(1, 17):
-    print('%X'%n, '*%X'%i, '=%X'%(n*i), sep='')
+data = int(input(), 16)
+for i in range(1, 16):
+    answer = data * i
+    print("%X*%X=%X" % (data, i, answer))

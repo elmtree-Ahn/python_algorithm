@@ -1,0 +1,11 @@
+a = int(input())
+b = input()
+q = int(b[0])
+w = int(b[1])
+e = int(b[2])
+b = int(b)
+
+print(a * e)
+print(a * w)
+print(a * q)
+print(a * b)

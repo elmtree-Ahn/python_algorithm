@@ -3,5 +3,9 @@ result = []
 
 for i in range(10):
     li.append(int(input()))
-    for i in range(len(li)):
-        li[i] % 
+
+for j in range(len(li)):
+    result.append(li[j] % 42)
+
+my_set = set(result)
+print(len(my_set))
